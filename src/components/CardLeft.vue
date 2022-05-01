@@ -67,7 +67,6 @@ export default {
 <style>
 img {
   width: 20vw !important;
-
   transform: translateX(70%);
   background: transparent !important;
 }

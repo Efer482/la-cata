@@ -8,7 +8,7 @@
       </b-row>
     </b-container>
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-    <b-card-group deck v-for="(show, index) in productos" :key="index">
+    <div deck v-for="(show, index) in productos" :key="index">
       <CardRigth
         v-if="index % 2 == 0"
         :titulo="show.titulo"
@@ -23,7 +23,7 @@
         :img="show.img"
         :precio="show.precio"
       />
-    </b-card-group>
+    </div>
     <b-container class="name text-light text-center">
       <b-row align-h="center" class="justify-content-md-center">
         <b-col id="span1" cols="2" align-self="center"> <span></span> </b-col>
