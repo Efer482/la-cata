@@ -76,7 +76,6 @@ export default {
 }
 
 .contenido-rigth {
-  padding: 50px;
   border-color: var(--cardinal);
   border-style: solid;
   border-width: 1px 0px 1px 1px;
@@ -94,6 +93,9 @@ export default {
   text-align: right;
 }
 .informacion-rigth {
+  margin-top: 20% !important;
+  margin-bottom: 20% !important;
+
   transform: translateX(-35%) !important;
   width: 130% !important;
   margin-right: 4% !important;
