@@ -70,7 +70,7 @@ export default {
 </script>
 <style>
 .img-rigth {
-  width: 100%;
+  width: 20vw !important;
   transform: translateX(-70%);
   background: transparent !important;
 }
