@@ -64,7 +64,7 @@ export default {
         {
           titulo: "Queso Dorblu",
           texto:
-            "El Dorblu es un queso de leche pasteurizada de vaca, de delicado moho azul, ni muy salado ni muy picante, que nació a principios del pasado siglo en la ciudad alemana de Lauben, en los Alpes de Allgäu",
+            "El Dorblu es un queso de leche pasteurizada de vaca, de delicado moho azul, ni muy salado ni muy picante, que nació a principios del pasado siglo en la ciudad alemana de Lauben, en los Alpes de Allgäu.",
           precio: "$3000",
           img: require("./img/min/queso.png"),
         },
