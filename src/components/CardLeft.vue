@@ -72,7 +72,6 @@ img {
 }
 
 .contenido {
-  padding: 50px;
   border-color: var(--cardinal);
   border-style: solid;
   border-width: 1px 1px 1px 0px;
@@ -92,6 +91,8 @@ h3 {
   text-align: left;
 }
 .informacion {
+  margin-top: 20% !important;
+  margin-bottom: 20% !important;
   transform: translateX(20%) !important;
   width: 130% !important;
 }
